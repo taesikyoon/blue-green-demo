@@ -1,12 +1,1 @@
-# nodejs dockerfile
-green:
-  build:
-    context: .
-    dockerfile: Dockerfile
-  ports:
-    - 3000:3000
-  environment:
-    PORT: 3000
-  #same network
-  networks:
-    - green-network
+# blue green 무중단 배포를 위한 docker-compose.yml
